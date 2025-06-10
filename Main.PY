@@ -19,6 +19,7 @@ end_of_game = False
 
 print(logo)
 
+# game loop
 while not end_of_game:
     guess = input("Provide a letter ! 0: (~:}").lower()
     word_lenght = len(secret_word)
